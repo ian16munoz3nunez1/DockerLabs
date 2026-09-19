@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm firsthacking.aux
+rm firsthacking.log
+rm firsthacking.out
+rm firsthacking.toc

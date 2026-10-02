@@ -1,3 +1,4 @@
 *.tar
 *.zip
 auto_deploy.sh
+.obsidian/workspace.json

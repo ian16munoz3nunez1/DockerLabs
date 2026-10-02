@@ -33,6 +33,7 @@ ping -c 172.17.0.2
 ```
 
 Result:
+
 ![](img_1.png)
 
 # 🔬 Recognition witn ***nmap***
@@ -42,6 +43,7 @@ nmap -sV -p- -T4 172.17.0.2
 ```
 
 Result:
+
 ![](img_2.png)
 
 Port 21 is exposed with service vsftpd 2.3.4 and may be subject to exploita- tion.
@@ -53,6 +55,7 @@ nmap --script ’vuln’ -p 21 172.17.0.2
 ```
 
 Result:
+
 ![](img_3.png)
 
 Vulnerability CVE-2011-2523 found due to vsftpd 2.3.4 version running on target.
@@ -64,6 +67,7 @@ Vsftpd v2.3.4 contains a backdoor triggered by entering a username ending with �
 # 💣 Exploitation
 
 Start ***ftp*** connection with ***user:)***.
+
 ![](img_4.png)
 
 # 🩻 Scanning ports after ftp sign in
@@ -82,6 +86,7 @@ hostname
 ```
 
 Result:
+
 ![](img_6.png)
 
 Root connection stablished.

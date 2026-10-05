@@ -15,9 +15,9 @@ Identify exposed services, detect vulnerabilities, and gain access to the target
 
 # 🛠️ Tools
 
-- ping: Connectivity and range check.
-- nmap: Port and services scanning, vulnerability scripts and recognition.
-- netcat: Remote connection to target.
+- ***ping***: Connectivity and range check.
+- ***nmap***: Port and services scanning, vulnerability scripts and recognition.
+- ***netcat***: Remote connection to target.
 
 # 🔌 Ports
 
@@ -29,14 +29,14 @@ Identify exposed services, detect vulnerabilities, and gain access to the target
 # 🔭 Connectivity with ***ping***
 
 ```bash
-ping -c 172.17.0.2
+ping -c4 172.17.0.2
 ```
 
 Result:
 
 ![](img_1.png)
 
-# 🔬 Recognition witn ***nmap***
+# 🔬 Recognition with ***nmap***
 
 ```bash
 nmap -sV -p- -T4 172.17.0.2

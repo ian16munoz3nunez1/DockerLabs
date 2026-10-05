@@ -2,3 +2,6 @@
 *.zip
 auto_deploy.sh
 .obsidian/workspace.json
+*.aux
+*.log
+*.out

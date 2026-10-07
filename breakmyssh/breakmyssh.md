@@ -32,7 +32,7 @@ Identify exposed services, detect vulnerabilities, and gain access to the target
 | 22   | ssh     |
 
 
-# 🔭 Connectivity with ***ping***
+# 📡 Connectivity with ***ping***
 
 ```bash
 ping -c4 172.17.0.2
@@ -71,7 +71,7 @@ Result:
 No vulnerabilities found
 
 
-# 💣 Brute Force attack
+# 💣 Brute Force Attack
 
 
 ## Hydra
